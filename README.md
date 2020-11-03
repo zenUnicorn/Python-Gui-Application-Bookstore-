@@ -1,6 +1,6 @@
 # Python-Gui-Application-Bookstore-
 ## A desktop application built with python tkinter library and back-end database sqlite3
-#Technologies used :
+### Technologies used :
 1. Python
 2. Tkinter library
 3. Sqlite3 DB
@@ -20,3 +20,9 @@ N.B You can fork this repo and contribute
 Download Python
 pip install pyinstaller
 import tkinter, sqlite3
+
+# converting py files to .exe
+## *In your terminal
+## *pyinstaller --onefile --windowed script1.py , you get your .exe file and other bunch of files with a directory to where your .exe file was created
+## --onefile(to generate just one file)
+## --windowed(to have just a window without a terminal at the background)
