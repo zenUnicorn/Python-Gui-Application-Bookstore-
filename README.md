@@ -22,7 +22,7 @@ pip install pyinstaller
 import tkinter, sqlite3
 
 # converting py files to .exe
-## *In your terminal
-## *pyinstaller --onefile --windowed script1.py , you get your .exe file and other bunch of files with a directory to where your .exe file was created
-## --onefile(to generate just one file)
-## --windowed(to have just a window without a terminal at the background)
+In your terminal
+*pyinstaller --onefile --windowed script1.py , you get your .exe file and other bunch of files with a directory to where your .exe file was created
+--onefile(to generate just one file)
+--windowed(to have just a window without a terminal at the background)
